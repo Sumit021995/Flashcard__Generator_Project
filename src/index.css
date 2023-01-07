@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #a9a7d9;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* header component*/
+#flashGroup,
+#createBtn {
+  height: 5px;
+  position: absolute;
+  left: 0%;
+  bottom: -5%;
+  border-radius: 5px;
+  background: #021226;
+  transition: 0.5s ease;
+}
+
+/* form number*/
+#num {
+  position: absolute;
+  left: -8%;
+  top: 7%;
+  padding: 0px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+}
+#num1 {
+  position: absolute;
+  left: -8%;
+  top: 7%;
+  padding: 0px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+}
+
+/*MyFlashCards styles*/
+#img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(186 176 176);
+  position: absolute;
+  top: -19%;
+  left: 36.5%;
+}
+
+.cardImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(186 176 176);
+}
+
+/* ShareBtn style */
+.popupBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, 0.696);
+}
+
+.closebtn {
+  position: absolute;
+  right: 5%;
+  top: 14%;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+/* webpage responsiveness */
+@media screen and (max-width: 600px) {
+  #form_resp {
+    flex-direction: column;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #num {
+    left: -15%;
+  }
+  #num1 {
+    left: -15%;
+  }
+}
+@media screen and (max-width: 775px) and (min-width: 657px) {
+  #num {
+    left: -17%;
+  }
+  #num1 {
+    left: -17%;
+  }
+}
+@media screen and (max-width: 657px) and (min-width: 400px) {
+  #num {
+    left: -6%;
+  }
+  #num1 {
+    left: -6%;
+  }
+}
