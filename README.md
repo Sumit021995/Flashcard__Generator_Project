@@ -13,7 +13,7 @@ https://transcendent-kitten-6d66d8.netlify.app
 Clone the project
 
 ```bash
-  git clone https://github.com/imvivekanand/AlmaBetter_Flashcard_Capstone_Project.git
+  git clone https://github.com/sumit021995/AlmaBetter_Flashcard_Capstone_Project.git
 ```
 
 Go to the project directory
