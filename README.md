@@ -1,4 +1,4 @@
-# AlmaBetter's Capstone Project - Flashcard Generator
+# Flashcard Generator
 
 ## Deployment Link
 
@@ -13,13 +13,13 @@ https://transcendent-kitten-6d66d8.netlify.app
 Clone the project
 
 ```bash
-  git clone https://github.com/Sumit021995/AlmaBetter_Flashcard_Capstone_Project.git
+  git clone https://github.com/Sumit021995/Flashcard__Generator_Project.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd AlmaBetter_Flashcard_Capstone_Project
+  cd Flashcard__Generator_Project
 ```
 
 Install dependencies
